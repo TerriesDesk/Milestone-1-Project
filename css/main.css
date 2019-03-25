@@ -1,0 +1,134 @@
+/**** Fonts and Text*****/
+
+h1   {
+  font-family:'Roboto Slab',serif;
+  font-weight: bold;
+  font-size:60px;
+  color:#bdbf09;
+  margin:0;
+  padding:15px 25px;
+}
+
+h2   {
+  font-family:'Roboto',sans-serif;
+  font-weight:normal;
+  font-size:48px;
+  color:#095156;
+  margin:0;
+  padding:10px 25px;
+}
+
+h3 {
+  font-family:'Roboto Slab',serif;
+  font-size:36px;
+  font-weight:bold;
+  text-align:center;
+  margin:0;
+  padding: 10px 0px 15px 0px;
+}
+
+h4 {
+  font-family:'Roboto',sans-serif;
+  font-size:24px;
+  font-weight:bold;
+  margin:0;
+  padding:0;
+}
+
+p   {
+  font-family:'Roboto',sans-serif;
+  font-size:24px;
+}
+
+.copyright {
+  font-family:'Roboto', sans-serif;
+  font-size:18px;
+  color:#bdbf09;
+}
+
+a:link {
+  color:#ffffff;
+}
+
+a:visited {
+  color:#bdbf09;
+}
+
+/**** Sections****/
+body {
+  margin 0 auto;
+}
+
+header {
+  height:450px;
+  background-image: url('../img/desktopimage.jpg');
+  background-size: cover;
+}
+
+#Portfolio {
+  height:825px;
+  background-color: #ffffff;
+  color:#095156;
+  margin:0;
+}
+
+#Portfolio div {
+  padding-top:15px;
+}
+
+#Portfolio img {
+  height:200px;
+  width:400px;
+  position:relative;
+  left:200px;
+  border: 1px solid #b7b7b7;
+}
+
+#About {
+  height:525px;
+  background-color: #0b7e8b;
+  color:#ffffff;
+  margin:0;
+}
+
+#About img {
+  height:300px;
+  width:200px;
+  position:relative;
+  left:300px;
+  border: 1px solid #b7b7b7;
+}
+
+
+#Connect {
+  height:225px;
+  background-color: #095156;
+  color:#ffffff;
+  margin:0;
+}
+
+footer {
+  height:110px;
+  background-color:#095156;
+  color:#bdbf09;
+  margin:0;
+  padding:2px 0;
+  text-align:center;
+}
+
+.full-width {
+  width:1500px;
+  clear:both;
+}
+
+
+.half-width {
+  width:740px;
+  float:left;
+}
+
+.third-width {
+  width:490px;
+  float:left;
+  text-align:center;
+}
