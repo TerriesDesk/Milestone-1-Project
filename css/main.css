@@ -2,6 +2,99 @@
   box-sizing:border-box;
 }
 
+/**** Sections****/
+body {
+  margin: 0 auto;
+}
+
+header {
+  max-width:100%;
+  height:auto;
+  background-image: url('../img/desktopimage.jpg');
+  background-size: cover;
+  padding:30px;
+}
+
+.portfolio {
+  max-width:100%;
+  height: auto;
+  background-color: #ffffff;
+  color:#095156;
+  border: 1px solid #000;
+  overflow:auto;
+}
+
+.about {
+  max-width:100%;
+  height: auto;
+  background-color: #0b7e8b;
+  color:#ffffff;
+  border: 1px solid #000;
+  display:flex;
+  align-content:space-around;
+  }
+
+.left {
+  flex: 30%;
+}
+
+.right {
+  flex:70%;
+  padding:30px;
+}
+
+.about img {
+  border: 1px solid #000;
+  border-radius:25%;
+  max-width:55%;
+  height:80%;
+}
+
+.connect {
+  max-width:100%
+  height:auto;
+  background-color: #095156;
+  color:#000000;
+  border: 1px solid #000;
+  overflow:auto;
+}
+
+footer {
+  max-width:100%;
+  height:auto;
+  background-color:#095156;
+  color:#bdbf09;
+  text-align:center;
+  border: 1px solid #000;
+}
+
+
+
+
+/*
+#Portfolio img {
+  height:auto;
+  max-width:50%;
+  position:relative;
+  left:200px;
+  border: 1px solid #b7b7b7;
+}
+
+#About img {
+  height:300px;
+  max-width:200px;
+  position:relative;
+  left:300px;
+  border: 1px solid #b7b7b7;
+}
+
+*/
+
+
+
+
+
+
 /**** Fonts and Text*****/
 
 h1   {
@@ -56,85 +149,4 @@ a:link {
 
 a:visited {
   color:#bdbf09;
-}
-
-/**** Sections****/
-body {
-  margin: 0 auto;
-}
-
-header {
-  max-width:100%;
-  height:auto;
-  background-image: url('../img/desktopimage.jpg');
-  background-size: cover;
-  padding:20px;
-}
-
-#Portfolio {
-  height:825px;
-  background-color: #ffffff;
-  color:#095156;
-  margin:0;
-}
-
-#Portfolio div {
-  padding-top:15px;
-}
-
-#Portfolio img {
-  height:auto;
-  max-width:50%;
-  position:relative;
-  left:200px;
-  border: 1px solid #b7b7b7;
-}
-
-#About {
-  height:525px;
-  background-color: #0b7e8b;
-  color:#ffffff;
-  margin:0;
-}
-
-#About img {
-  height:300px;
-  max-width:200px;
-  position:relative;
-  left:300px;
-  border: 1px solid #b7b7b7;
-}
-
-
-#Connect {
-  height:225px;
-  background-color: #095156;
-  color:#ffffff;
-  margin:0;
-}
-
-footer {
-  height:110px;
-  background-color:#095156;
-  color:#bdbf09;
-  margin:0;
-  padding:2px 0;
-  text-align:center;
-}
-
-.full-width {
-  width:1500px;
-  clear:both;
-}
-
-
-.half-width {
-  width:740px;
-  float:left;
-}
-
-.third-width {
-  width:490px;
-  float:left;
-  text-align:center;
 }
