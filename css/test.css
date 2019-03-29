@@ -2,61 +2,89 @@
   box-sizing:border-box;
 }
 
+/* Style the Body */
 body {
-  font-family:Verdana;
-  color:#aaaaaa;
+  font-family:Arial;
+  margin:0;
 }
 
-.overflow {
-  overflow:auto;
-}
-
+/* Header/logo Title */
 .header {
-  background-color:#e5e5e5;
-  text-align:center;
-  padding:15px;
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color:white;
 }
 
-.menu {
-  float:left;
-  width:20%;
-  text-align:center;
+/* Navigation bar */
+.navbar  {
+  display:flex;
+  background-color: #333;
+  justify-content:center;
 }
 
-.menu a {
-  background-color:#e5e5e5;
-  padding:8px;
-  margin-top:7px;
-  display:block;
-  width:100%;
+/* Style the navigation bar links */
+.navbar a {
+  color:white;
+  padding:14px 20px;
+  text-decoration:none;
+  border: 1px solid white;
+}
+
+/* change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
   color:black;
 }
 
+/* Column Container */
+.row {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+/* Create to unequal columns that sit next to each other */
+.side {
+  flex:30%;
+  background-color: #f1f1f1;
+  padding:20px;
+}
+
 .main {
-  float:left;
-  width:60%;
-  padding: 0 20px;
+  flex:70%;
+  background-color: white;
+  padding:20px;
+
 }
 
-.right {
-  background-color:#e5e5e5;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
+/* Style image placeholders */
+.fakeimg  {
+  background-color: #aaa;
+  width:100%;
+  padding:20px;
 }
 
+.smallpic {
+  height:60px;
+}
+
+.largepic {
+  height:200px;
+}
+
+/* Footer */
 .footer {
-  background-color:#e5e5e5;
+  padding: 20px;
   text-align:center;
-  padding:10px;
-  margin-top:7px;
-  }
+  background: #ddd;
+}
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
+/* Responsive Layout - when screen is less than 700px wide
+make the two columns stac on top of each other instead of next
+to each other */
+
+@media (max-width:700px) {
+  .row, .navbar {
+    flex-direction: column;
   }
 }

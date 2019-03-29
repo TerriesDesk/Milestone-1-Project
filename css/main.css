@@ -64,9 +64,11 @@ body {
 }
 
 header {
-  height:450px;
+  max-width:100%;
+  height:auto;
   background-image: url('../img/desktopimage.jpg');
   background-size: cover;
+  padding:20px;
 }
 
 #Portfolio {
