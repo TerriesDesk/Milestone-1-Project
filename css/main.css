@@ -31,23 +31,28 @@ header {
   color:#ffffff;
   border: 1px solid #000;
   display:flex;
-  align-content:space-around;
   }
 
 .left {
   flex: 30%;
+  border: 1px solid #000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 
 .right {
   flex:70%;
-  padding:30px;
-}
+  border: 1px solid #000;
+  padding: 35px;
+  }
 
 .about img {
   border: 1px solid #000;
-  border-radius:25%;
-  max-width:55%;
-  height:80%;
+  border-radius:30%;
+  max-width: 75%;
+  height: auto;
 }
 
 .connect {
